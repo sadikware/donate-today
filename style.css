@@ -17,6 +17,11 @@ h2 {
   margin-bottom: 15px;
 }
 
+h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
 input:focus {
   outline: none;
 }
@@ -54,7 +59,8 @@ input:focus {
 /* Donate Today */
 
 .today-donate,
-.donate-plan {
+.donate-plan,
+.donate-now-section {
   width: 60%;
   margin: 80px auto;
 }
@@ -149,6 +155,31 @@ input:focus {
 
 .education {
   background-color: #fff4d6;
+}
+
+.donate-now-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.donate-now {
+  display: flex;
+}
+
+.donate-now-card {
+  width: 30%;
+  justify-content: space-evenly;
+  margin: 0px 20px;
+  text-align: center;
+}
+
+.donate-now-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.donate-now-card p {
+  margin-bottom: 20px;
 }
 
 .get-updates {
