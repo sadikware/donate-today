@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 65px;
+}
+
+.top-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/donation13.jpg);
+  background-size: cover;
+  height: 80vh;
+  margin-bottom: 80px;
+}
+
+.top-banner-content {
+  text-align: center;
+  color: white;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #ff5959;
+  padding: 12px 16px;
+  border-radius: 5px;
+}
+
+.btn-top-margin {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+/* Donate Today */
+
+.today-donate,
+.donate-plan {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.donate-title {
+  text-align: center;
+}
+
+.donate-title h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.donate-amount {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.amount-card {
+  width: 135px;
+  margin: 0 15px;
+  background-color: #fafafa;
+  padding: 30px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.amount-card h2 {
+  color: #707070;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#amount-card-select {
+  background-color: #ffeeee;
+  border: 2px solid #ff5959;
+}
+
+#amount-card-select h2 {
+  color: #ff5959;
+}
+
+.donate-input {
+  text-align: center;
+}
+
+.donate-input input {
+  margin-top: 50px;
+  border: none;
+  font-size: 18px;
+}
+
+/*  */
+
+.donate-plan {
+  margin-top: 80px;
+}
+
+.donate-plan-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.donate-plan-title h2 {
+  font-size: 45px;
+}
+
+.donate-plan-categories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.donate-plan-categories-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0px 20px;
+
+  margin: 10px;
+  height: 352px;
+  width: 360px;
+  border-radius: 5px;
+}
+
+.donate-plan-categories-card h3 {
+  font-family: "Poppins";
+  font-size: 24px;
+}
+
+.donate-plan-categories-card img {
+  width: 20%;
+}
+
+.food {
+  background-color: #eef6f7;
+}
+
+.shelter {
+  background-color: #ffefef;
+}
+
+.education {
+  background-color: #fff4d6;
+}
+
+.footer {
+  margin-top: 100px;
+  background-color: #0b0d17;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.footer h3 {
+  font-family: "lobster";
+  font-size: 36px;
+  color: #ff5959;
+  padding-bottom: 30px;
+}
+
+.footer p {
+  font-size: 14px;
+}
